@@ -19,6 +19,7 @@ function mostrarMenu (){
     do {
     menu = prompt ("Estos son los productos que tenemos para vos (ingresa sólo el número): \n1: Espejo 1. \n2: Espejo 2. \n3: Espejo 3. \n4: Espejo 4")
     }
+    menu = Number (menu);
     while (menu != 1 && menu!=2 && menu!=3 && menu!=4)
     switch (menu) {
         case 1:
